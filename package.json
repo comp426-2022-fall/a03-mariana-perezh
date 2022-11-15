@@ -4,7 +4,7 @@
   "description": "a03",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node cli.js"
+    "test": "node bin/cli.js --sides=10 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,6 @@
   "homepage": "https://github.com/comp426-2022-fall/a03-mariana-perezh#readme",
   "dependencies": {
     "minimist": "^1.2.7"
-  }
+  },
+  "type": "module"
 }
